@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: amigo
+  title: amigo
+  description: "Asterisk AMI connector on golang."
+  annotations:
+    github.com/project-slug: Brisanet/amigo
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/TODO-DEFINIR
